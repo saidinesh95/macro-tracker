@@ -168,4 +168,4 @@ def create_meal_plan(plan_name, rows_per_meal=8):
 # --- Main ---
 ensure_calories_in_master(master_sheet)
 plan_name = input("Enter meal plan name (this becomes the tab name): ")
-create_meal_plan(plan_name)
+create_meal_plan(plan_name, rows_per_meal=6)
