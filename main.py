@@ -1,6 +1,4 @@
-def main():
-    print("Hello from macro-tracker!")
+def greet(name):
+    return f"Hello, {name}!"
 
-
-if __name__ == "__main__":
-    main()
+print(greet("Dinesh"))
